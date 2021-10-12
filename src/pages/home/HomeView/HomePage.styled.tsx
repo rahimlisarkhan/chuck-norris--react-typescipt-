@@ -9,7 +9,6 @@ margin: 15px;
 `
 
 export const HomeBottom = styled.div`
-  width:100%;
   height:100px;
   display:flex;
   flex-wrap: wrap;
@@ -18,7 +17,7 @@ export const HomeBottom = styled.div`
 
 export const SubmitButton = styled(Button)`
 padding: 20px;
-    background-color: #07978b !important;
+    background-color: ${colors.lightBlue} !important;
     color: white !important;
     margin-left: 15px !important;
 `

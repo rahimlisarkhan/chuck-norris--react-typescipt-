@@ -23,7 +23,7 @@ const CategorySelect: React.FC<CategorySelectProps> = ({ categories, jokesData }
 
     return (
         <Container>
-            <FormControl sx={{ width: 180 }}>
+            <FormControl sx={{ width: 185 }}>
                 <InputLabel id="demo-simple-select-autowidth-label">{category ? "Category" : "Random"} </InputLabel>
                 <SelectList
                     labelId="demo-simple-select-autowidth-label"
